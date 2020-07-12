@@ -1,0 +1,9 @@
+li:hover    {
+    background-color: rgb(20, 124, 43);
+    
+    font-weight: bolder;
+    
+   }   
+   li      {
+       font-family: 'Special Elite', cursive;
+   }
