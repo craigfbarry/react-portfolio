@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "../components/Projects";
 
 
 const projectDetails = [
@@ -27,15 +28,14 @@ function Portfolio() {
   return (
     <div className="container">
       
-      <header className="row mt-5">
-          <h3 className="text-center mb-5">Portfolio</h3>
+      <header className="row py-sm-5 mt-5 text-center text-align-middle">
+          <h3 className="col my-4">Portfolio</h3>
       </header>
-      <div className="col-md-6 col-lg-4 px-0 px-md-4">
-          <img src="assets/password-generator.png" alt="Password-Generator"/>
-          <h3>Password Generator</h3>
-          <a href="https://github.com/craigfbarry/password-generator"></a>
-          <a href="https://craigfbarry.github.io/password-generator/"></a>
-      </div>
+
+
+        <Projects
+          projectDetails = {projectDetails}
+        />
     </div>
   );
 }
