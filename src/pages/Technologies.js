@@ -1,16 +1,24 @@
 import React from "react";
+import "./style.css";
 
 function Technologies() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="mt-5 pt-5 text-center">
+      <h3>Technologies studied</h3>
+      <ul className="tech">
+        <li>HTML 5</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>Bootstrap</li>
+        <li>Node JS</li>
+        <li>Express</li>
+        <li>MYSQL</li>
+        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>React</li>
+      </ul>
     </div>
   );
 }

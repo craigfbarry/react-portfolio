@@ -17,17 +17,17 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarMenu">
             <ul className="navbar-nav ">
-                <li className="nav-item nav-link btn mx-5 mx-sm-0 p-sm-3">
+                <li className="nav-item btn mx-5 mx-sm-0 p-sm-3">
                     <Link to="/Portfolio" className={location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>
                         Portfolio
                     </Link>
                 </li>
-                <li className="nav-item nav-link btn mx-5 mx-sm-0 p-sm-3">
+                <li className="nav-item btn mx-5 mx-sm-0 p-sm-3">
                     <Link to="/Resume" className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}>
                         Resume
                     </Link>    
                 </li>
-                <li className="nav-item nav-link btn mx-5 mx-sm-0 p-sm-3">
+                <li className="nav-item btn mx-5 mx-sm-0 p-sm-3">
                     <Link to="/Technologies" className={location.pathname === "/Technologies" ? "nav-link active" : "nav-link"}>
                         Technologies
                     </Link>
