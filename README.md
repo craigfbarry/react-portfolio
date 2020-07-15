@@ -28,7 +28,7 @@
 
 
 *****
-![react-portfolio](assets/react-portfolio)
+![react-portfolio](/public/assets/react-portfolio.png)
 
 #### Installation
 
