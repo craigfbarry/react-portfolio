@@ -3,21 +3,21 @@ import Projects from "../components/Projects";
 
 
 const projectDetails = [
+  {imageSource:"assets/musos-lounge.png",imageAlt:"Musos-Lounge",description:"MERN stack Project",
+  githubURL:"https://github.com/craigfbarry/musos-lounge",
+  projectURL:"https://musos-lounge.herokuapp.com/"},
   {imageSource:"assets/wuber.png",imageAlt:"Wuber",description:"Wuber database Project",
   githubURL:"https://github.com/craigfbarry/WUber",
   projectURL:"https://wuber-wines.herokuapp.com/"},
   {imageSource:"assets/nasa-slack.png",imageAlt:"NASA-slack",description:"NASA/Slack API Project",
   githubURL:"https://github.com/craigfbarry/patient0",
-  projectURL:"https://lnxsa.com"},            
-  {imageSource:"assets/day-planner.png",imageAlt:"Day-planner",description:"Day Planner",
-  githubURL:"https://github.com/craigfbarry/day-planner",
-  projectURL:"https://craigfbarry.github.io/day-planner/"},
+  projectURL:"https://lnxsa.com"},
+  {imageSource:"assets/google-books-search.png",imageAlt:"Google-Books-Search",description:"React Google Books Search",
+  githubURL:"https://github.com/craigfbarry/google-books-search",
+  projectURL:"https://react-google-bookssearch.herokuapp.com/"},
   {imageSource:"assets/weather-dashboard.png",imageAlt:"Weather-Dashboard",description:"Weather API Dashboard",
   githubURL:"https://github.com/craigfbarry/weather-dashboard",
   projectURL:"https://craigfbarry.github.io/weather-dashboard"},
-  {imageSource:"assets/note-taker.png",imageAlt:"Note-Taker",description:"Note Taker",
-  githubURL:"https://github.com/craigfbarry/note-taker",
-  projectURL:"https://immense-springs-98803.herokuapp.com/"},
   {imageSource:"assets/password-generator.png",imageAlt:"Password-Generator",description:"Password Generator",
   githubURL:"https://github.com/craigfbarry/password-generator",
   projectURL:"https://craigfbarry.github.io/password-generator/"}
